@@ -24,7 +24,7 @@ public class StandaloneTest {
 		  System.out.println("Property file key value---->" + prop.getProperty("os"));
 		  
 		  if(System.getProperty("browser").equalsIgnoreCase("chrome")) {
-			  System.out.println("Browser is Chrome----->");
+			  System.out.println("Browser is Chrome-----> + added CICD");
 			  ChromeOptions options = new ChromeOptions();
 			  WebDriverManager.chromedriver().setup();
 			//  options.addArguments("--headless");
@@ -35,7 +35,7 @@ public class StandaloneTest {
 			  driver.quit();
 			  
 		  } else {
-			  System.out.println("Browser is Edge--->");
+			  System.out.println("Browser is Edge---> added CICD");
 			  EdgeOptions options = new EdgeOptions();
 			  WebDriverManager.edgedriver().setup();
 			 // options.addArguments("--headless");
