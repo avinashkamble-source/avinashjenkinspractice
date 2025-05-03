@@ -16,7 +16,7 @@ public class StandaloneTest {
 		try {
 			// Load the properties file
 			prop.load(StandaloneTest.class.getClassLoader().getResourceAsStream("externalsystem.properties"));
-			System.out.println("Property file loaded successfully---->");
+			System.out.println("Property file loaded successfully now test---->");
 			System.out.println("Property file key value----> " + prop.getProperty("browser"));
 			System.out.println("Property file key value----> " + prop.getProperty("profile"));
 			System.out.println("Property file key value----> " + prop.getProperty("os"));
